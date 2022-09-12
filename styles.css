@@ -3,7 +3,6 @@
     padding:0;
 }
 
-
 header{
     background-color: black;
 }
@@ -34,6 +33,7 @@ header nav ul li a {
     font-size: 20px;
    font-family:Georgia, 'Times New Roman', Times, serif;
    margin: 30px;
+
 }
     /*ACA TERMINA EL HEADER*/
 
@@ -52,10 +52,34 @@ header nav ul li a {
    border-style: inset;
 }
 .mainindex img{
-    width:200px; height: 200px;
-   margin: 40px;
+    width:100px; height: 100px;
+    margin:50px 8%;
 }
 
+.uno:hover{
+    transform: scale(2);
+}
+.uno{
+    transition: all 1s;
+}
+.dos:hover{
+    transform: scale(2);
+}
+.dos{
+    transition: all 1s;
+}
+.tres:hover{
+    transform: scale(2);
+}
+.tres{
+    transition: all 1s;
+}
+.cuatro:hover{
+    transform: scale(1.5);
+}
+.cuatro{
+    transition: all 1s;
+}
 #sobrenosotros{
     text-align: center;
 }
@@ -79,7 +103,9 @@ header nav ul li a {
    justify-content:space-around;
    flex-wrap: wrap;
    border: solid black 10px;
-  
+   background-color: #FFFFFF;
+   background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+   
   
 }
 .nikeadidaspuma li{
@@ -100,8 +126,10 @@ header nav ul li a {
     display:flex;
     flex-direction:row;
     justify-content:center;
-    border: 11px darkblue solid;
+    border:solid darkblue 10px;
+    
     }
+    
 #zapasnike img{
 width:40px;
 height:30px;
@@ -223,6 +251,9 @@ padding: 10px;
     justify-content: center;
     border: solid black 10px;
     flex-wrap: wrap;
+    background-color: #FFFFFF;
+background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+
 }
 .indumentaria li{
     margin:10px 50px;
