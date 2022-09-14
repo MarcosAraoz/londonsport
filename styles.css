@@ -4,43 +4,32 @@
 }
 
 header{
-    background-color: black;
+    background-color:black;
 }
 
-header nav ul{
-    list-style:none;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    flex-wrap: wrap;
-    align-items: center;
+.navboton-blanco{
+    background-color: white ;
 }
-
-.compunone{
-    display:none;
+.jordanlogo{
     width: 80px;
     height: 100px;
 }
-header nav ul li img{
-    width:80px;
-    height:100px;
-    align-items: center;
+.letras-blancas{
+    color: white !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger ;
 }
-
-header nav ul li a {    
-    text-decoration:none;
-    color: white;
-    font-size: 20px;
-   font-family:Georgia, 'Times New Roman', Times, serif;
-   margin: 30px;
+.letras-blancas:hover{
+    color:darkblue !important;
 
 }
+
     /*ACA TERMINA EL HEADER*/
 
 /*BODY INDEX*/
 .imgpresentacion img{
     width:100%;
-    height:8%;
+    height:8%; 
 }
 .mainindex{
     border: solid black 5px;
@@ -131,35 +120,29 @@ header nav ul li a {
     }
     
 #zapasnike img{
-width:40px;
-height:30px;
+width:80px;
+height:60px;
 margin:3px;
 padding: 10px;
 }
 #zapasnike h2{
     padding:10px;
 }
-.zapatillasnk{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.zapatillasnk div {
+  
+   
+   margin-top: 10px;
+   margin-bottom: 10px;
+ 
+}
 
+.boton-nike{
+   
+    background-color: darkblue;
+    color: white;
 }
-.zapatillasnk div{
-    border: solid black 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-   }
-.zapatillasnk div h2{
-   font-family:fantasy;
-   text-align: center;
-   border-bottom:solid 10px black;
-   background-color:lightblue;
-}
-.zapatillasnk div img{
-    width:400px;
-    height:400px;   
+.boton-nike:hover{
+    background-color:gray;
 }
 /*ZAPATILLAS ADIDAS*/
 #zapasadidas{
@@ -169,8 +152,8 @@ padding: 10px;
     border: 11px darkblue solid;
 }
 #zapasadidas img{
-    width:40px;
-    height:30px;
+    width:80px;
+    height:60px;
     margin:3px;
     padding: 10px;
 }
@@ -178,29 +161,18 @@ padding: 10px;
     padding:10px;
   
 }
-.adidaszapas{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-.adidaszapas div{
-    border:solid 10px black;
+.adidaszapas div {
+    
+    
     margin-top: 10px;
     margin-bottom: 10px;
-}
-.adidaszapas div h2{
-    font-family: fantasy;
-    border-bottom:10px solid black;
-    background-color:lightblue;
-    text-align: center;
-}
-.adidaszapas div img{
-    width:400px;
-    height:400px;
-}
- 
+  
+ }
+ .adidaszapas div img{
+    width: 100%;
+    height: 300px;
+ }
+
 /*ZAPATILLAS PUMA*/
 #zapaspuma{
     display:flex;
@@ -209,8 +181,8 @@ padding: 10px;
     border: 11px darkblue solid;
 }
 #zapaspuma img{
-    width:40px;
-    height:30px;
+    width:80px;
+    height:60px;
     margin:3px;
     padding: 10px;
 }
@@ -218,27 +190,9 @@ padding: 10px;
     padding:10px;
 }
 .pumazapatillas{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.pumazapatillas div{
-    border:solid 10px black;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.pumazapatillas div h2{
-    font-family: fantasy;
-    border-bottom:10px solid black;
-    background-color:lightblue;
-    text-align: center;
-}
-.pumazapatillas div img{
-    width:400px;
-    height:400px;
-}
-
 /*BODY INDUMENTARIA*/
 
  .imgpresentacionind img{
@@ -283,7 +237,7 @@ background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
 }
 .comprarbuzo div{
     border:solid 10px black;
-    margin:10px;
+    margin: 3px;
 }
 .comprarbuzo div h2{
     font-family: fantasy;
@@ -294,6 +248,7 @@ background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
 .comprarbuzo div img{
     width:400px;
     height:400px;
+    
 }
 #remeras{
     display: flex;
