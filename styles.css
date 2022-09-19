@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
 }
-
 header{
     background-color:black;
 }
@@ -14,14 +13,13 @@ header{
     width: 80px;
     height: 100px;
 }
-.letras-blancas{
-    color: white !important;
+#letrasblancas{
+    color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:larger ;
 }
-.letras-blancas:hover{
-    color:darkblue !important;
-
+#letrasblancas:hover{
+    color:darkblue;
 }
 
     /*ACA TERMINA EL HEADER*/
@@ -94,8 +92,6 @@ header{
    border: solid black 10px;
    background-color: #FFFFFF;
    background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
-   
-  
 }
 .nikeadidaspuma li{
     list-style:none;
@@ -107,18 +103,26 @@ header{
   color:black;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
-
-
 }
+.nikeadidaspuma li:hover{
+transform: scale(1.5);
+}
+.nikeadidaspuma li{
+    transition: all 1s;
+}
+
 /*ZAPATILLAS NIKE*/
 #zapasnike{
     display:flex;
     flex-direction:row;
     justify-content:center;
-    border:solid darkblue 10px;
-    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-    
+    #zapasnike div{
+        display:flex;
+    flex-direction:row;
+        border:solid darkblue 10px;
+    }
 #zapasnike img{
 width:80px;
 height:60px;
@@ -149,6 +153,12 @@ padding: 10px;
     display:flex;
     flex-direction:row;
     justify-content:center;
+   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#zapasadidas div{
+    display: flex;
+    flex-direction: row;
     border: 11px darkblue solid;
 }
 #zapasadidas img{
@@ -178,6 +188,11 @@ padding: 10px;
     display:flex;
     flex-direction:row;
     justify-content:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#zapaspuma div{
+    display: flex;
+    flex-direction: row;
     border: 11px darkblue solid;
 }
 #zapaspuma img{
@@ -209,9 +224,13 @@ padding: 10px;
 background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
 
 }
+.indumentaria li:hover{
+    transform: scale(1.4);
+}
 .indumentaria li{
     margin:10px 50px;
     list-style:none;
+    transition: all 1s;
  }
 
 .indumentaria li a{
@@ -226,35 +245,25 @@ background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
  flex-direction:row;
  justify-content: center;
  border: 10px solid darkblue;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #buzos h2{
     margin:10px;
 }
-.comprarbuzo{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
 .comprarbuzo div{
-    border:solid 10px black;
-    margin: 3px;
-}
-.comprarbuzo div h2{
-    font-family: fantasy;
-    border-top:10px solid black;
-    background-color:lightblue;
-    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .comprarbuzo div img{
-    width:400px;
-    height:400px;
-    
+
+height: 300px;
 }
 #remeras{
     display: flex;
     flex-direction:row;
     justify-content: center;
     border: 10px solid darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
 #remeras h2{
        margin:10px;
@@ -265,18 +274,11 @@ background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
     flex-wrap: wrap;
 }
 .comprarremera div{
-    border:solid 10px black;
-    margin:10px;
-}
-.comprarremera div h2{
-    font-family: fantasy;
-    border-top:10px solid black;
-    background-color:lightblue;
-    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .comprarremera div img{
-    width:400px;
-    height:400px;
+    height: 300px;
 }
 
 #jeans{
@@ -284,58 +286,35 @@ background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
     flex-direction:row;
     justify-content: center;
     border: 10px solid darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
    #jeans h2{
        margin:10px;
    }
-.comprarjeans{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
-.comprarjeans div{
-    border:solid 10px black;
-    margin:10px;
-}
-.comprarjeans div h2{
-    font-family: fantasy;
-    border-top:10px solid black;
-    background-color:lightblue;
-    text-align: center;
-}
-.comprarjeans div img{
-    width:400px;
-    height:400px;
-}
+   .comprarjeans div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+ .comprarjeans div img{
+    height: 300px;
+ }
 #camperas{
     display: flex;
     flex-direction:row;
     justify-content: center;
     border: 10px solid darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
 #camperas h2{
        margin:10px;
    }
-.comprarcamperas{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
-.comprarcamperas div{
-    border:solid 10px black;
-    margin:10px;
-}
-.comprarcamperas div h2{
-    font-family: fantasy;
-    border-top:10px solid black;
-    background-color:lightblue;
-    text-align: center;
-}
-.comprarcamperas div img{
-    width:400px;
-    height:400px;
-}
-  
+ .comprarcampera div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .comprarcampera div img{
+    height: 300px;
+ }
 /* ACA ARRANCA EL FOOTER */
 
 footer{
@@ -406,28 +385,5 @@ footer{
      align-items: center;
      border:solid 5px black;
    }
-   .zapatillasnk div{
-    flex-direction: column;
-    border:5px solid black;
-   }
-   .zapatillasnk div img{
-    width:300px;
-    height:300px;
-   }
-   .adidaszapas div{
-    flex-direction: column;
-    border:5px solid black;
-   }
-   .adidaszapas div img{
-    width:300px;
-    height:300px;
-   }
-   .pumazapatillas div{
-    flex-direction: column;
-    border:5px solid black;
-   }
-   .pumazapatillas div img{
-    width:300px;
-    height:300px;
-   }
+  
    }
